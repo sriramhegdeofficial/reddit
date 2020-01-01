@@ -118,8 +118,12 @@
               "devServerTarget": "angular-reddit:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@zeit/ng-deploy:deploy"
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-reddit"
 }
